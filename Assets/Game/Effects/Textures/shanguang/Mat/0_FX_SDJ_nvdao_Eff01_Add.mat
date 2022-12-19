@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 0_FX_SDJ_nvdao_Eff01_Add
+  m_Shader: {fileID: 4800000, guid: 23af926fc8e21ef4e88a609a5ed484ae, type: 3}
+  m_ShaderKeywords: ENABLE_TINT_COLOR _ALPHA_BLEND
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Blend_Texture:
+        m_Texture: {fileID: 2800000, guid: d78eb384d0fd8ee4ea331d2ec29acddc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Blend_Texture01:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissloveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4bfb2f389c09e2244b5b6ba283e20b72, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 886f74642f4daa042bd77cfe5c04a8d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UVNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CullMode: 0
+    - _Cutoff: 0.1
+    - _DissloveAmount: 0.1
+    - _DstBlend: 1
+    - _ForceX: 0.1
+    - _ForceY: 0.1
+    - _HeatTime: -0.14285715
+    - _InvFade: 1
+    - _Lighten: 1
+    - _LightenMain: 1
+    - _RenderingMode: 1
+    - _RimFresnel: 1
+    - _RimIntensity: 1
+    - _RimLightFresnel: 1
+    - _RimLightIntensity: 1
+    - _Speed00: 0
+    - _Speed01: 1
+    - _Speed02: 1
+    - _SrcBlend: 5
+    - _UVNoiseBias: 0.6
+    - _UVNoiseIntensity: 0.5
+    - _ZWrite: 0
+    m_Colors:
+    - _Color01: {r: 1, g: 1, b: 1, a: 1}
+    - _Color02: {r: 1, g: 1, b: 1, a: 1}
+    - _Color03: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 0.25167602, g: 0.5321151, b: 0.6985294, a: 1}
+    - _UVNoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
